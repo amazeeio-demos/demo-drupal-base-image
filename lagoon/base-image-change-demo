@@ -1,0 +1,5 @@
+#!/bin/sh
+
+BIVER=`cat /lagoon/base-image-version`
+echo "This is version $BIVER" > /app/web/sites/default/files/change-demo.txt
+
